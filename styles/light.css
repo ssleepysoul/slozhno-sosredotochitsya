@@ -21,7 +21,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  background-image: url(/images/cover-image-light.png);
+  background-image: url("../images/cover-image-light.png");
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,7 +37,7 @@
     --focus-color: #353430;
     --link-shadow: #FF8DCB;
     --section-title: #353430;
-    background-image: url(/images/cover-image-light.png);
+    background-image: url("../images/cover-image-light.png");
   }
 
   .page.theme_auto .header__record {

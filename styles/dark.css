@@ -17,7 +17,7 @@
   --link-shadow: #FF0070;
   --section-title: #FF0070;
 
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url("../images/cover-image-dark.png");
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -27,18 +27,6 @@
 
 .page.theme_dark .header__record {
   visibility: visible;
-}
-
-.page.theme_dark .pictures__content {
-  grid-template-rows: 280px 335px 428px;
-}
-
-.page.theme_dark .pictures__item:nth-of-type(2) {
-  padding-bottom: 20px;
-}
-
-.page.theme_dark .pictures__item:nth-of-type(4) {
-  padding-bottom: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,22 +43,10 @@
     --link-shadow: #FF0070;
     --section-title: #FF0070;
   
-    background-image: url(/images/cover-image-dark.png);
+    background-image: url("../images/cover-image-dark.png");
   }
 
   .page.theme_auto .header__record {
     visibility: visible;
-  }
-
-  .page.theme_auto .pictures__content {
-    grid-template-rows: 280px 335px 428px;
-  }
-  
-  .page.theme_auto .pictures__item:nth-of-type(2) {
-    padding-bottom: 20px;
-  }
-  
-  .page.theme_auto .pictures__item:nth-of-type(4) {
-    padding-bottom: 20px;
   }
 }
