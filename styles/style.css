@@ -426,7 +426,7 @@
   align-items: center;
   position: relative;
   padding: 319px 276px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .footer__title {
