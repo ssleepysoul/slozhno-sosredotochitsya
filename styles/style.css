@@ -221,7 +221,7 @@
   font-size: var(--basic-font-size);
   font-weight: bold;
   line-height: var(--basic-line-height);
-  color: var(--subtitle-color);
+  color: var(--section-title);
 }
 
 .difficult__left {
@@ -394,6 +394,10 @@
   grid-column: 2/4;
   grid-row: 3/4;
 } 
+
+.pictures .section-title {
+  color: var(--subtitle-color);
+}
 
 @media (375px < width <= 768px) {
   .pictures__content {

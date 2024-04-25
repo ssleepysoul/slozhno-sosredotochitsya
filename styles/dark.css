@@ -15,6 +15,7 @@
   --hover-color: rgba(255, 0, 112, 0.4);
   --focus-color: #FF0070;
   --link-shadow: #FF0070;
+  --section-title: #FF0070;
 
   background-image: url(/images/cover-image-dark.png);
 
@@ -40,6 +41,7 @@
     --hover-color: rgba(255, 0, 112, 0.4);
     --focus-color: #FF0070;
     --link-shadow: #FF0070;
+    --section-title: #FF0070;
   
     background-image: url(/images/cover-image-dark.png);
   }
