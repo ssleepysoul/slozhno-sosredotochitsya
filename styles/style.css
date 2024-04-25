@@ -466,7 +466,7 @@
     font-size: 116px;
   }
   
-  .footer::before  {
+  .footer::before {
     right: 10px;
     top: 10px;
   }
