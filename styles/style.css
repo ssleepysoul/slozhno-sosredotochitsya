@@ -221,7 +221,7 @@
   font-size: var(--basic-font-size);
   font-weight: bold;
   line-height: var(--basic-line-height);
-  color: var(--title-color);
+  color: var(--subtitle-color);
 }
 
 .difficult__left {
@@ -258,6 +258,12 @@
 .link:focus {
   outline: 1px solid var(--basic-color);
   border-bottom-color: transparent;
+}
+
+@media (375px < width <= 768px) {
+  .difficult {
+    grid-template-columns: 236px 452px;
+  }
 }
 
 @media (width <= 375px) {
