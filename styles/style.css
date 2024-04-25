@@ -428,6 +428,10 @@
     margin-block-start: 50px;
   }
 
+  .pictures__item {
+    display: flex;
+  }
+
   .pictures__item:first-of-type, .pictures__item:nth-of-type(2), .pictures__item:nth-of-type(4) {
     padding-bottom: 0;
   }
