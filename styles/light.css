@@ -16,12 +16,13 @@
   --focus-color: #353430;
   --link-shadow: #FF8DCB;
   --section-title: #353430;
+  --background-image: url("../images/cover-image-light.png");
+  --background-color: #FFF1F7;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  background-image: url("../images/cover-image-light.png");
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,7 +38,8 @@
     --focus-color: #353430;
     --link-shadow: #FF8DCB;
     --section-title: #353430;
-    background-image: url("../images/cover-image-light.png");
+    --background-image: url("../images/cover-image-light.png");
+    --background-color: #FFF1F7;
   }
 
   .page.theme_auto .header__record {
