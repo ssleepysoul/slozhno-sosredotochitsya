@@ -62,7 +62,7 @@
   bottom: 20px;
 }
 
-@media (width <= 375px) {  
+@media (width <= 375px) {
   .decorated-zone::before {
     right: 10px;
     top: 10px;
