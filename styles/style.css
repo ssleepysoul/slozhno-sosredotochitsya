@@ -63,7 +63,6 @@
 }
 
 @media (width <= 375px) {  
-  
   .decorated-zone::before {
     right: 10px;
     top: 10px;
@@ -108,7 +107,7 @@
   align-items: center;
   gap: 10px;
   display: flex;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .header__record::after {

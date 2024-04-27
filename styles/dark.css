@@ -30,7 +30,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .page.theme_auto {
+  :root {
     --accent-color: #FF0070;
     --main-title-color: #DB00FF;
     --title-decor: #FF0070;
