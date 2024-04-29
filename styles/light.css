@@ -48,7 +48,7 @@
     --background-color: #FFF1F7;
   }
 
-  .page.theme_auto .header__record {
+  .header__record {
     visibility: hidden;
   }
 }
